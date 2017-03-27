@@ -38,7 +38,6 @@ $(function() {
 				}
 			}
 		}
-		console.log(toursToBeShown);
 		//sort the list of tours based on the "ordField" value
 		if(ordField == "start"){
 			toursToBeShown = toursToBeShown.sort(function(a,b){
